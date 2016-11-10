@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        base(href="/")
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
+        include favicon.pug
+        title Example
+        //- inject:css
+        link(rel="stylesheet", href="/web/css/styles.css")
+        //- endinject
+    body
+        ul
+            li
+                a(href="/") index
+            li
+                a(href="/error") error
+            li
+                a(href="/login") login
+            li
+                a(href="/notfound") notfound
+        block content
+        //- inject:js
+        script(src="/node_modules/zone.js/dist/zone.js")
+        script(src="/node_modules/reflect-metadata/Reflect.js")
+        script(src="/node_modules/systemjs/dist/system.src.js")
+        script(src="/system.js")
+        //- endinject
+
