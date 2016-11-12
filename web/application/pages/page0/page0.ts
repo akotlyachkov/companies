@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
 @Component({
     moduleId: module.id,
     selector: 'application',
-    templateUrl: 'index.html'
+    templateUrl: 'page0.html'
 })
 export class Test {
 

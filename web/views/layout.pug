@@ -8,7 +8,7 @@ html(lang="en")
         include favicon.pug
         title Example
         //- inject:css
-        link(rel="stylesheet", href="/web/css/styles.css")
+        link(rel="stylesheet", href="/css/styles.css")
         //- endinject
     body
         ul
@@ -22,9 +22,9 @@ html(lang="en")
                 a(href="/notfound") notfound
         block content
         //- inject:js
-        script(src="/node_modules/zone.js/dist/zone.js")
-        script(src="/node_modules/reflect-metadata/Reflect.js")
-        script(src="/node_modules/systemjs/dist/system.src.js")
+        script(src="/zone.js/dist/zone.js")
+        script(src="/reflect-metadata/Reflect.js")
+        script(src="/systemjs/dist/system.src.js")
         script(src="/system.js")
         //- endinject
 

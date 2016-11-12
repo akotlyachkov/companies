@@ -24,4 +24,4 @@ System.config({
     }
 });
 
-System.import('web/application/main');
+System.import('main.js');

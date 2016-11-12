@@ -1,20 +1,26 @@
 var express = require('express'),
     helmet = require('helmet'),
+    favicon = require('serve-favicon'),
     path = require('path'),
     compression = require('compression'),
     bodyParser = require('body-parser'),
     app = express(),
     http = require('http'),
-    config = require('./system'),
     server = http.createServer(app),
     web = require('./web'),
     api = require('./api');
 
 app.use(helmet());
+app.use(favicon(path.join(__dirname , 'web/public/favicon/favicon.ico')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(compression());
 
+
+app.use(express.static(path.join(__dirname,'node_modules')));
+app.use(express.static(path.join(__dirname,'web/public')));
+app.use(express.static(path.join(__dirname,'web/application')));
+app.use(express.static(__dirname));
 
 app.use('/api', api);
 app.use('/', web);

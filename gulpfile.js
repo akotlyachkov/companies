@@ -15,25 +15,25 @@ var gulp = require('gulp'),
 
 gulp.task('debug:sass', function () {
     return gulp
-        .src(['web/css/styles.scss'])
+        .src(['web/public/css/styles.scss'])
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('web/css'))
+        .pipe(gulp.dest('web/public/css'))
 });
 gulp.task('debug:inject', [ 'debug:sass'], function () {
     let libs = gulp.src([
         'node_modules/zone.js/dist/zone.js',
         'node_modules/reflect-metadata/Reflect.js',
         'node_modules/systemjs/dist/system.src.js',
-        'system.js',
-        'web/css/*.css'
+        'web/public/system.js',
+        'web/public/css/*.css'
     ], {read: false});
 
     return gulp
-        .src('web/views/source.pug')
-        .pipe(inject(libs))
-        .pipe(rename({basename: 'layout'}))
+        .src('web/views/layout.pug')
+        .pipe(inject(libs,{ignorePath:['node_modules','web/public']}))
+        //.pipe(rename({basename: 'layout'}))
         .pipe(gulp.dest('web/views'));
 });
 

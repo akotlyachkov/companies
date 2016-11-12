@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {Test} from  '../pages/page0/index'
+import {Test} from  '../pages/page0/page0'
 import {BrowserModule} from '@angular/platform-browser';
 import {RoutingModule} from "../pages/routes";
 import {Page2} from "../pages/page2/page2";
