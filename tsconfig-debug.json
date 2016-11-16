@@ -14,6 +14,6 @@
         ]
     },
     "include": [
-        "web/application/main.ts"
+        "web/application/start.ts"
     ]
 }
