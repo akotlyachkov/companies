@@ -27,5 +27,5 @@ app.use('/', web);
 app.set('port', process.env.PORT || /*config.system.port ||*/ '3001');
 
 server.listen(app.get('port'), function () {
-    console.log('Приложение запущено на порту ' + app.get('port'));
+    console.log('Приложение запущено на порту http://localhost:' + app.get('port'));
 });

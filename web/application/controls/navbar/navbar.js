@@ -12,15 +12,15 @@ var core_1 = require("@angular/core");
 var NavbarControl = (function () {
     function NavbarControl() {
     }
-    NavbarControl = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'navbar',
-            templateUrl: 'navbar.html'
-        }), 
-        __metadata('design:paramtypes', [])
-    ], NavbarControl);
     return NavbarControl;
 }());
+NavbarControl = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'navbar',
+        templateUrl: 'navbar.html'
+    }),
+    __metadata("design:paramtypes", [])
+], NavbarControl);
 exports.NavbarControl = NavbarControl;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmF2YmFyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmF2YmFyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxxQkFBd0IsZUFBZSxDQUFDLENBQUE7QUFReEM7SUFBQTtJQUdBLENBQUM7SUFSRDtRQUFDLGdCQUFTLENBQUM7WUFDUCxRQUFRLEVBQUUsTUFBTSxDQUFDLEVBQUU7WUFDbkIsUUFBUSxFQUFFLFFBQVE7WUFDbEIsV0FBVyxFQUFFLGFBQWE7U0FDN0IsQ0FBQzs7cUJBQUE7SUFJRixvQkFBQztBQUFELENBQUMsQUFIRCxJQUdDO0FBSFkscUJBQWEsZ0JBR3pCLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudH0gZnJvbSBcIkBhbmd1bGFyL2NvcmVcIjtcclxuXHJcblxyXG5AQ29tcG9uZW50KHtcclxuICAgIG1vZHVsZUlkOiBtb2R1bGUuaWQsXHJcbiAgICBzZWxlY3RvcjogJ25hdmJhcicsXHJcbiAgICB0ZW1wbGF0ZVVybDogJ25hdmJhci5odG1sJ1xyXG59KVxyXG5leHBvcnQgY2xhc3MgTmF2YmFyQ29udHJvbCB7XHJcblxyXG5cclxufSJdfQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmF2YmFyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmF2YmFyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxzQ0FBd0M7QUFReEM7SUFBQTtJQUdBLENBQUM7SUFBRCxvQkFBQztBQUFELENBQUMsQUFIRCxJQUdDO0FBSEQ7SUFMQyxnQkFBUyxDQUFDO1FBQ1AsUUFBUSxFQUFFLE1BQU0sQ0FBQyxFQUFFO1FBQ25CLFFBQVEsRUFBRSxRQUFRO1FBQ2xCLFdBQVcsRUFBRSxhQUFhO0tBQzdCLENBQUM7O2lCQUlEO0FBSFksd0JBQUEsYUFBYSxDQUFBIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnR9IGZyb20gXCJAYW5ndWxhci9jb3JlXCI7XHJcblxyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgICBtb2R1bGVJZDogbW9kdWxlLmlkLFxyXG4gICAgc2VsZWN0b3I6ICduYXZiYXInLFxyXG4gICAgdGVtcGxhdGVVcmw6ICduYXZiYXIuaHRtbCdcclxufSlcclxuZXhwb3J0IGNsYXNzIE5hdmJhckNvbnRyb2wge1xyXG5cclxuXHJcbn0iXX0=

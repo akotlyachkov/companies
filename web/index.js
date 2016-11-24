@@ -6,16 +6,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 //app.enable('view cache');
 
-
-app.get('/notfound', function (req, res, next) {
-    res.render('notfound', {url:req.query.url});
-});
-
-app.get('/login', function (req, res, next) {
-    res.render('login');
-});
-app.get('/', function (req, res, next) {
-    //throw new Error("херовина");
+app.use( function (req, res, next) {
     res.render('index');
 });
 

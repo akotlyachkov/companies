@@ -3,10 +3,7 @@ import {Component} from "@angular/core";
 
 @Component({
     moduleId: module.id,
-    selector: 'application',
-    host: {
-        'class':'container'
-    },
+    selector: 'login',
     templateUrl: 'login.html'
 })
 export class LoginPage {

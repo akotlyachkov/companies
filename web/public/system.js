@@ -21,6 +21,7 @@ System.config({
     map: {
         "@angular": "npm:@angular",
         "rxjs": "npm:rxjs",
+        //"ui-router-ng2":"npm:ui-router-ng2/_bundles/ui-router-ng2"
     }
 });
 
