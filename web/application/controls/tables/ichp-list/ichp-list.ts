@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
 @Component({
     moduleId: module.id,
     selector: 'ichp-list',
-    template: `<div>ichp list</div>`
+    templateUrl: 'ichp-list.html'
 })
 export class IchpListControl {
 

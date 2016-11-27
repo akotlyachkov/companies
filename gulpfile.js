@@ -21,6 +21,9 @@ gulp.task('debug:sass', function () {
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('web/public/css'))
 });
+gulp.task('watch:debug:sass', function () {
+    gulp.watch(['web/public/**/*.scss','web/application/**/*.scss'], ['debug:sass']);
+});
 gulp.task('debug:inject', [ 'debug:sass'], function () {
     let libs = gulp.src([
         'node_modules/zone.js/dist/zone.js',
@@ -33,7 +36,6 @@ gulp.task('debug:inject', [ 'debug:sass'], function () {
     return gulp
         .src('web/views/layout.pug')
         .pipe(inject(libs,{ignorePath:['node_modules','web/public']}))
-        //.pipe(rename({basename: 'layout'}))
         .pipe(gulp.dest('web/views'));
 });
 

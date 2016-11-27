@@ -1,5 +1,5 @@
 var packages = {
-    "app": {"defaultExtension": "js"}
+    'app': {'defaultExtension': 'js'}
 };
 
 var ng2PackageNames = [
@@ -7,7 +7,7 @@ var ng2PackageNames = [
 ];
 
 ng2PackageNames.forEach(function (pkgName) {
-    packages["@angular/" + pkgName] = {main: 'bundles/' + pkgName + '.umd.js', defaultExtension: 'js'};
+    packages['@angular/' + pkgName] = {main: 'bundles/' + pkgName + '.umd.js', defaultExtension: 'js'};
 });
 
 System.config({
@@ -16,12 +16,13 @@ System.config({
 
     packages: packages,
 
-    paths: {"npm:*": "node_modules/*"},
+    paths: {'npm:*': 'node_modules/*'},
 
     map: {
-        "@angular": "npm:@angular",
-        "rxjs": "npm:rxjs",
-        //"ui-router-ng2":"npm:ui-router-ng2/_bundles/ui-router-ng2"
+        'moment': 'node_modules/moment/moment.js',
+        'ng2-bootstrap/ng2-bootstrap': 'npm:ng2-bootstrap/bundles/ng2-bootstrap.umd.js',
+        '@angular': 'npm:@angular',
+        'rxjs': 'npm:rxjs'
     }
 });
 

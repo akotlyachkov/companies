@@ -1,12 +1,11 @@
 import {Component} from "@angular/core";
 
-
 @Component({
     moduleId: module.id,
     selector: 'businessmen-list',
-    template: `<div>businessmen list</div>`
+    templateUrl: 'businessmen-list.html'
 })
-export class BusinessmenListControl {
 
+export class BusinessmenListControl {
 
 }

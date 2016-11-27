@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
 @Component({
     moduleId: module.id,
     selector: 'companies-list',
-    template: `<div>compnanies-list</div>`
+    templateUrl: 'companies-list.html'
 })
 export class CompaniesListControl {
 

@@ -1,0 +1,42 @@
+.search {
+    background-color: $backgroud-blue;
+    padding: 20px;
+    display: block;
+    color: $white;
+    &--without-bottom {
+        padding-bottom: 0;
+    }
+    &--without-top {
+        padding-top: 0;
+    }
+    &__input {
+        margin-right: 100px;
+    }
+    &__button {
+        width: 80px;
+    }
+
+    &__checkbox {
+        cursor: pointer;
+    }
+    &__tab-mode {
+        padding: 5px;
+        &.active {
+            background-color: $white;
+            .dashed {
+                color: $black;
+            }
+        }
+
+    }
+}
+
+.search-advanced {
+    background-color: $white;
+    color: $black;
+    padding: 20px;
+    &__input {
+        margin-bottom: 20px;
+    }
+}
+

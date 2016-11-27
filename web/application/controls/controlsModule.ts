@@ -1,4 +1,8 @@
+
 import {NgModule} from "@angular/core";
+import {RouterModule} from "@angular/router";
+import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
+
 
 import {NavbarControl} from "./navbar/navbar";
 import {FeaturesControl} from "./features/features";
@@ -12,11 +16,17 @@ import {SearchCompaniesIdentificationControl} from "./search/companies/identific
 import {SearchCompaniesSimpleControl} from "./search/companies/simple/simple";
 import {SearchIchpIdentificationControl} from "./search/ichp/identification/identification";
 import {SearchIchpSimpleControl} from "./search/ichp/simple/simple";
-import {PagerControl} from "./pager/pager";
 import {TabsControl} from "./tabs/tabs";
+import {CompaniesListControl} from "./tables/companies-list/companies-list";
+import {IchpListControl} from "./tables/ichp-list/ichp-list";
+import {BusinessmenListControl} from "./tables/businessmen-list/businessmen-list";
+import {OperatorsDropwownControl} from "./dropdown/operators";
+import {CommonModule} from "@angular/common";
 
 @NgModule({
+    imports: [RouterModule,Ng2BootstrapModule,CommonModule],
     declarations: [
+        OperatorsDropwownControl,
         NavbarControl,
         FeaturesControl,
         SearchBusinessmenPersonControl,
@@ -30,9 +40,14 @@ import {TabsControl} from "./tabs/tabs";
         SelectorControl,
         ActionsControl,
         //PagerControl,
-        TabsControl
+        TabsControl,
+        CompaniesListControl,
+        IchpListControl,
+        BusinessmenListControl
+
     ],
-    exports:[
+    exports: [
+        OperatorsDropwownControl,
         NavbarControl,
         FeaturesControl,
         SearchBusinessmenPersonControl,
@@ -46,7 +61,10 @@ import {TabsControl} from "./tabs/tabs";
         SelectorControl,
         ActionsControl,
         //PagerControl,
-        TabsControl
+        TabsControl,
+        CompaniesListControl,
+        IchpListControl,
+        BusinessmenListControl
     ]
 })
 export class ControlsModule {

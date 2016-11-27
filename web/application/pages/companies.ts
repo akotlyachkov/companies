@@ -6,7 +6,7 @@ import {Component} from "@angular/core";
     template: `
 <router-outlet></router-outlet>
 <selector></selector>
-<div>companies table</div>
+<companies-list></companies-list>
 `
 })
 export class CompaniesPage {

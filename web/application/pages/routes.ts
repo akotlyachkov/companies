@@ -1,5 +1,5 @@
 //import {UIRouterModule} from "ui-router-ng2";
-import {RouterModule, Routes} from "@angular/router";
+import {RouterModule, Routes, RouterLink} from "@angular/router";
 import {CompaniesPage} from "./companies";
 import {NgModule} from "@angular/core";
 import {LoginPage} from "./login/login";
@@ -19,11 +19,12 @@ import {SearchIchpSimpleControl} from "../controls/search/ichp/simple/simple";
 
 
 const appRoutes: Routes = [
+    {path:'',redirectTo:'/companies',pathMatch:'full'},
     {
-        path: '', component: MainLayout, children: [
+        path:'', component: MainLayout,  children: [
         {
-            path: '', component: CompaniesPage, children: [
-            {path: '', component: SearchCompaniesSimpleControl},
+            path: 'companies', component: CompaniesPage, children: [
+            {path: '', component: SearchCompaniesSimpleControl },
             {path: 'finance', component: SearchCompaniesFinanceControl},
             {path: 'identification', component: SearchCompaniesIdentificationControl},
             {path: 'founders', component: SearchCompaniesFoundersControl},
@@ -36,7 +37,7 @@ const appRoutes: Routes = [
         ]
         },
         {
-            path: 'bussinesmen', component: BusinessmenPage, children: [
+            path: 'businessmen', component: BusinessmenPage, children: [
             {path: '', component: SearchIchpIdentificationControl},
             {path: 'person', component: SearchIchpIdentificationControl},
         ]
@@ -51,6 +52,7 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
+
     imports: [RouterModule.forRoot(appRoutes), ControlsModule],
     exports: [RouterModule]
 })

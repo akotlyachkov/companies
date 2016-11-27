@@ -3,7 +3,6 @@ import {BrowserModule} from "@angular/platform-browser";
 
 import {MasterLayout} from "./layouts/master";
 import {MainLayout} from "./layouts/main";
-
 import {RoutingModule} from "./pages/routes";
 import {Page2} from "./pages/page2/page2";
 import {LoginPage} from "./pages/login/login";
