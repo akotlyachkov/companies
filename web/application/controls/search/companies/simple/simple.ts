@@ -3,7 +3,7 @@ import {Component} from "@angular/core";
 
 @Component({
     moduleId: module.id,
-    host:{class: 'search'},
+    host:{class: 'search search--with-tabs'},
     selector: 'search-companies-simple',
     templateUrl: 'simple.html'
 })

@@ -1,6 +1,5 @@
 import {Component} from "@angular/core";
 
-
 @Component({
     moduleId: module.id,
     selector: 'operators-dropdown',
@@ -21,5 +20,11 @@ export class OperatorsDropwownControl {
         $event.stopPropagation();
         this.status.isopen = !this.status.isopen;
     }
+
+    public selectMenuItem(item:string): void{
+        this.selectedItem = item;
+        console.log('Selected: ', item);
+    }
+
 
 }
