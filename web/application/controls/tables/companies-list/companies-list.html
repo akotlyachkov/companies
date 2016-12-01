@@ -7,12 +7,12 @@
         <th>Адрес</th>
         <th>ИД</th>
     </tr>
-    <tr>
-        <td><input type="checkbox"></td>
-        <td>ПАО "Газпром"</td>
-        <td>Миллер Алексей Борисович</td>
-        <td>7736050003</td>
-        <td>117420, Город Москва, Улица Намёткина, дом 16</td>
-        <td>1</td>
+    <tr *ngFor="let companie of companies">
+        <td></td>
+        <td>{{companie.name}}</td>
+        <td>{{companie.chief}}</td>
+        <td>{{companie.inn}}</td>
+        <td>{{companie.address}}</td>
+        <td>{{companie.indexCredit}}</td>
     </tr>
 </table>
