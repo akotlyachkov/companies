@@ -1,1 +1,68 @@
 <search-companies-simple></search-companies-simple>
+<div class="search search--without-top">
+    <div class="search-advanced">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group">
+                    <label for="goscontract" class="search__checkbox"><input id="goscontract" type="checkbox"> Исключить компании без гос. контрактов</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group">
+                    <span>Финансовые показатели для:</span>
+                    <div class="checkbox-inline">
+                        <label><input type="radio" name="finance-for"> Организаций годовые</label>
+                    </div>
+                    <div class="checkbox-inline">
+                        <label><input type="radio" name="finance-for"> Банков</label>
+                    </div>
+                    <div class="checkbox-inline">
+                        <label><input type="radio" name="finance-for"> Страховых</label>
+                    </div>
+                    <div class="checkbox-inline">
+                        <label><input type="radio" name="finance-for"> Организаций квартальные</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div>Численность: (чел)</div>
+                <headcount-dropdown></headcount-dropdown>
+            </div>
+            <div class="col-xs-6">
+                <input type="date" /> -
+                <input type="date" />
+                <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
+                <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="dashed" href="">Выбрать вид деятельности</a><span> (ОКВЭД)</span>
+                <div>
+                    <div class="checkbox-inline">
+                        <label><input type="radio" name="okato"> Основной</label>
+                    </div>
+                    <div class="checkbox-inline">
+                        <label><input type="radio" name="okato"> По регистрации</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+
+                <a class="dashed" href="">Выбрать регион</a><span> (ОКАТО)</span>
+            </div>
+        </div>
+    </div>
+</div>

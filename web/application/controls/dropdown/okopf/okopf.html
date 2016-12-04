@@ -1,0 +1,6 @@
+<div class="btn-group" dropdown (onToggle)="toggled($event)">
+    <button type="button" class="btn btn-default" dropdownToggle> {{selectedItem}} <span class="caret"></span></button>
+    <ul dropdownMenu>
+        <li *ngFor="let item of items"><a class="dropdown-item" (click)="selectMenuItem(item)" >{{item}}</a></li>
+    </ul>
+</div>

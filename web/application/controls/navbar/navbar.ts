@@ -1,4 +1,6 @@
-import {Component} from "@angular/core";
+import {Component, OnInit} from "@angular/core";
+import {NavbarService} from "../../providers/navbar";
+import {NavbarItem} from "../../entities/NavbarItem";
 
 
 @Component({
@@ -6,7 +8,15 @@ import {Component} from "@angular/core";
     selector: 'navbar',
     templateUrl: 'navbar.html'
 })
-export class NavbarControl {
+export class NavbarControl implements OnInit {
 
+    navbarList: NavbarItem[];
 
+    constructor(private navbarService: NavbarService) {
+
+    }
+
+    ngOnInit(): void {
+        this.navbarService.navbar().subscribe(response => this.navbarList = response);
+    }
 }

@@ -1,6 +1,7 @@
 import {Component, OnInit} from "@angular/core";
-import {CompaniesService} from "../data/companies";
+import {CompaniesService} from "../providers/companies";
 import {Companie} from "../entities/Companie";
+import {SearchFilter} from "../entities/SearchFilter";
 
 @Component({
     moduleId: module.id,
@@ -14,13 +15,18 @@ import {Companie} from "../entities/Companie";
 })
 export class CompaniesPage implements OnInit {
 
-    companies:Companie[];
+    companies: Companie[];
+    count: number;
 
     constructor(private companieService: CompaniesService) {
 
     }
 
+    filter: SearchFilter = {query: ''};
+
     ngOnInit(): void {
-        this.companieService.search().subscribe(response => this.companies = response);
+
+        this.companieService.count().subscribe(response => this.count = response);
+        this.companieService.search(this.filter).subscribe(response => this.companies = response);
     }
 }

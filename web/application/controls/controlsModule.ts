@@ -8,8 +8,8 @@ import {NavbarControl} from "./navbar/navbar";
 import {FeaturesControl} from "./features/features";
 import {SelectorControl} from "./selector/selector";
 import {ActionsControl} from "./actions/actions";
-import {SearchBusinessmenPersonControl} from "./search/buinessmen/person/person";
-import {SearchBusinessmenSimpleControl} from "./search/buinessmen/simple/simple";
+import {SearchBusinessmenPersonControl} from "./search/businessmen/person/person";
+import {SearchBusinessmenSimpleControl} from "./search/businessmen/simple/simple";
 import {SearchCompaniesFinanceControl} from "./search/companies/finance/finance";
 import {SearchCompaniesFoundersControl} from "./search/companies/founders/founders";
 import {SearchCompaniesIdentificationControl} from "./search/companies/identification/identification";
@@ -20,8 +20,12 @@ import {TabsControl} from "./tabs/tabs";
 import {CompaniesListControl} from "./tables/companies-list/companies-list";
 import {IchpListControl} from "./tables/ichp-list/ichp-list";
 import {BusinessmenListControl} from "./tables/businessmen-list/businessmen-list";
-import {OperatorsDropwownControl} from "./dropdown/operators";
+import {OperatorsDropwownControl} from "./dropdown/operators/operators";
 import {CommonModule} from "@angular/common";
+import {NavbarService} from "../providers/navbar";
+import {HeadcountDropwownControl} from "./dropdown/headcount/headcount";
+import {OkfsDropwownControl} from "./dropdown/okfs/okfs";
+import {OkopfDropwownControl} from "./dropdown/okopf/okopf";
 
 @NgModule({
     imports: [RouterModule,Ng2BootstrapModule,CommonModule],
@@ -43,8 +47,10 @@ import {CommonModule} from "@angular/common";
         TabsControl,
         CompaniesListControl,
         IchpListControl,
-        BusinessmenListControl
-
+        BusinessmenListControl,
+        HeadcountDropwownControl,
+        OkfsDropwownControl,
+        OkopfDropwownControl
     ],
     exports: [
         OperatorsDropwownControl,
@@ -64,8 +70,12 @@ import {CommonModule} from "@angular/common";
         TabsControl,
         CompaniesListControl,
         IchpListControl,
-        BusinessmenListControl
-    ]
+        BusinessmenListControl,
+        HeadcountDropwownControl,
+        OkfsDropwownControl,
+        OkopfDropwownControl
+    ],
+    providers:[NavbarService]
 })
 export class ControlsModule {
 

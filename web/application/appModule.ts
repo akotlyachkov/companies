@@ -11,7 +11,7 @@ import {ErrorPage} from "./pages/error/error";
 import {CompaniesPage} from "./pages/companies";
 import {IchpPage} from "./pages/ichp";
 import {BusinessmenPage} from "./pages/businessmen";
-import {DataModule} from "./data/DataModule";
+import {DataModule} from "./providers/DataModule";
 
 @NgModule({
     declarations: [
