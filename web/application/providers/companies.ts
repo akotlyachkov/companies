@@ -1,8 +1,8 @@
 import {Http, Response} from "@angular/http";
 import {Injectable} from "@angular/core";
 import {Observable} from "rxjs";
-import {Companie} from "../entities/Companie";
-import {SearchFilter} from "../entities/SearchFilter";
+import {Companie} from "../entities/companie";
+import {SearchFilter} from "../entities/searchFilter";
 
 
 @Injectable()

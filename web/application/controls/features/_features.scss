@@ -1,0 +1,17 @@
+.feature {
+    text-align: center;
+    height: 80px;
+    width: 150px;
+    vertical-align: top;
+    &__icon {
+        font-size: 36px;
+    }
+    &__name {
+        display: block;
+    }
+    &__link{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

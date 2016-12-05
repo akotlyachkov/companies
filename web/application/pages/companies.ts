@@ -1,7 +1,7 @@
 import {Component, OnInit} from "@angular/core";
 import {CompaniesService} from "../providers/companies";
-import {Companie} from "../entities/Companie";
-import {SearchFilter} from "../entities/SearchFilter";
+import {Companie} from "../entities/companie";
+import {SearchFilter} from "../entities/searchFilter";
 
 @Component({
     moduleId: module.id,

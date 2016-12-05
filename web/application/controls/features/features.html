@@ -1,1 +1,7 @@
-<div>   features</div>
+<ul class="list-inline list-unstyled">
+    <li class="feature" *ngFor="let feature of features">
+        <a class="feature__link" routerLink={{feature.link}}>
+            <i class="feature__icon fa {{feature.icon}}"></i><span class="feature__name">{{feature.name}}</span>
+        </a>
+    </li>
+</ul>

@@ -1,6 +1,6 @@
 import {Component, OnInit} from "@angular/core";
 import {NavbarService} from "../../providers/navbar";
-import {NavbarItem} from "../../entities/NavbarItem";
+import {NavbarItem} from "../../entities/navbarItem";
 
 
 @Component({

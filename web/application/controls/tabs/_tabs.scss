@@ -1,0 +1,24 @@
+
+.nav-tabs {
+    &--blue {
+        > li {
+            > a{
+                border: 1px solid $gray;
+                border-bottom: 1px solid transparent;
+                color: $black;
+            }
+            &.active > a {
+
+                &,
+                &:hover,
+                &:focus {
+                    color: $white;
+                    background-color: $backgroud-blue;
+                    border: 1px solid transparent;
+                    cursor: default;
+                }
+
+            }
+        }
+    }
+}
