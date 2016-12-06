@@ -26,11 +26,13 @@ import {NavbarService} from "../providers/navbar";
 import {HeadcountDropwownControl} from "./dropdown/headcount/headcount";
 import {OkfsDropwownControl} from "./dropdown/okfs/okfs";
 import {OkopfDropwownControl} from "./dropdown/okopf/okopf";
+import {AssetsDropwownControl} from "./dropdown/assets/assets";
+import {PeriodsDropwownControl} from "./dropdown/period/periods";
 
 @NgModule({
     imports: [RouterModule,Ng2BootstrapModule,CommonModule],
     declarations: [
-        OperatorsDropwownControl,
+
         NavbarControl,
         FeaturesControl,
         SearchBusinessmenPersonControl,
@@ -50,10 +52,13 @@ import {OkopfDropwownControl} from "./dropdown/okopf/okopf";
         BusinessmenListControl,
         HeadcountDropwownControl,
         OkfsDropwownControl,
-        OkopfDropwownControl
+        OkopfDropwownControl,
+        AssetsDropwownControl,
+        PeriodsDropwownControl,
+        OperatorsDropwownControl,
     ],
     exports: [
-        OperatorsDropwownControl,
+
         NavbarControl,
         FeaturesControl,
         SearchBusinessmenPersonControl,
@@ -73,7 +78,10 @@ import {OkopfDropwownControl} from "./dropdown/okopf/okopf";
         BusinessmenListControl,
         HeadcountDropwownControl,
         OkfsDropwownControl,
-        OkopfDropwownControl
+        OkopfDropwownControl,
+        AssetsDropwownControl,
+        PeriodsDropwownControl,
+        OperatorsDropwownControl,
     ],
     providers:[NavbarService]
 })

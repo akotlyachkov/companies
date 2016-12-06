@@ -33,9 +33,30 @@
         <div class="row"></div>
         <div class="row"></div>
         <div class="row">
-            <div class="col-xs-6">
-                <div>Численность: (чел)</div>
-                <headcount-dropdown></headcount-dropdown>
+            <div class="col-xs-12">
+                <div  class="form-inline">
+                    <div class="form-group">
+                        <label class="label-upper" for="assets-dropdown">Название показателя:</label>
+                        <assets-dropdown class="finance-assets" id="assets-dropdown"></assets-dropdown>
+                    </div>
+                    <div class="form-group">
+                        <operators-dropdown class="finance-operators"></operators-dropdown>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-upper" for="finance-value">Значение:</label>
+                        <input id="finance-value" type="text" class="form-control finance-value" placeholder="Значение показателя в руб."/>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-upper" for="period-dropdown">Период показателя:</label>
+                        <periods-dropdown class="finance-periods" id="period-dropdown"></periods-dropdown>
+                    </div>
+                    <div class="form-group"><i class="fa fa-plus finance-plus"></i></div>
+                </div>
+
+
+
+
+
             </div>
             <div class="col-xs-6">
                 <input type="date" /> -

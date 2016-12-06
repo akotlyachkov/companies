@@ -1,0 +1,34 @@
+.finance-assets {
+    .dropdown-selected,
+    .dropdown-item {
+        width: 700px;
+    }
+
+}
+
+.finance-periods {
+    .dropdown-selected,
+    .dropdown-item {
+        width: 200px;
+    }
+}
+
+.finance-operators {
+    .dropdown{
+        margin-top: 18px;
+
+    }
+    .dropdown-selected,
+    .dropdown-item {
+        width: 80px;
+    }
+}
+.finance-value{
+    min-width: 300px;
+
+}
+.finance-plus{
+    font-size: 35px;
+    margin-top: 18px;
+
+}
