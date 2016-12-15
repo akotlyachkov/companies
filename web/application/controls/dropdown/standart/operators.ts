@@ -2,10 +2,10 @@ import {Component} from "@angular/core";
 
 @Component({
     moduleId: module.id,
-    selector: 'headcount-dropdown',
-    templateUrl: 'headcount.html'
+    selector: 'select-operators',
+    templateUrl: 'standart.html'
 })
-export class HeadcountDropwownControl {
+export class OperatorsDropwownControl {
     public disabled: boolean = false;
     public status: {isopen: boolean} = {isopen: false};
     public items: string[] = ['>', '<', '>=', '<='];

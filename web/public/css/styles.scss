@@ -1,29 +1,12 @@
 
 @import "variables";
 @import "bootstrap";
+@import "bootstrap-custom";
 @import "font-awesome";
 @import "roboto";
 
 @include roboto-font;
 @import "../../application/index";
+@import "geometry";
+@import "global";
 
-.dashed {
-    border-bottom: 1px dashed;
-    text-decoration: none;
-    &:hover {
-        text-decoration: none;
-    }
-    &--white {
-        color: $white;
-        &:hover {
-            color: $white;
-        }
-    }
-
-    &--black{
-        color: $black;
-        &:hover {
-            color: $black;
-        }
-    }
-}

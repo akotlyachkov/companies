@@ -4,7 +4,9 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="form-group">
-                    <label for="goscontract" class="search__checkbox"><input id="goscontract" type="checkbox"> Исключить компании без гос. контрактов</label>
+                    <div class="checkbox">
+                        <label for="goscontract" class="search__checkbox"><input id="goscontract" type="checkbox"> Исключить компании без гос. контрактов</label>
+                    </div>
                 </div>
             </div>
         </div>
@@ -12,76 +14,99 @@
             <div class="col-xs-12">
                 <div class="form-group">
                     <span>Финансовые показатели для:</span>
-                    <div class="checkbox-inline">
-                        <label><input type="radio" name="finance-for"> Организаций годовые</label>
+                    <div class="radio-inline">
+                        <label><input type="radio" name="finance-for">организаций годовые</label>
                     </div>
-                    <div class="checkbox-inline">
-                        <label><input type="radio" name="finance-for"> Банков</label>
+                    <div class="radio-inline">
+                        <label><input type="radio" name="finance-for">банков</label>
                     </div>
-                    <div class="checkbox-inline">
-                        <label><input type="radio" name="finance-for"> Страховых</label>
+                    <div class="radio-inline">
+                        <label><input type="radio" name="finance-for">страховых</label>
                     </div>
-                    <div class="checkbox-inline">
-                        <label><input type="radio" name="finance-for"> Организаций квартальные</label>
+                    <div class="radio-inline">
+                        <label><input type="radio" name="finance-for">организаций квартальные</label>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-
-        </div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row">
             <div class="col-xs-12">
-                <div  class="form-inline">
-                    <div class="form-group">
-                        <label class="label-upper" for="assets-dropdown">Название показателя:</label>
-                        <assets-dropdown class="finance-assets" id="assets-dropdown"></assets-dropdown>
+                <div class="form-inline row">
+                    <div class="form-group col-xs-6">
+                        <label class="label-upper" for="assets">Название показателя:</label>
+                        <select-assets class="select--w100p" id="assets"></select-assets>
                     </div>
                     <div class="form-group">
-                        <operators-dropdown class="finance-operators"></operators-dropdown>
+                        <select-operators class="select--w55 select--without-label"></select-operators>
                     </div>
                     <div class="form-group">
-                        <label class="label-upper" for="finance-value">Значение:</label>
-                        <input id="finance-value" type="text" class="form-control finance-value" placeholder="Значение показателя в руб."/>
+                        <label class="label-upper" for="finval">Значение:</label>
+                        <input id="finval" type="text" class="form-control finance-value" placeholder="Значение показателя в руб."/>
                     </div>
                     <div class="form-group">
-                        <label class="label-upper" for="period-dropdown">Период показателя:</label>
-                        <periods-dropdown class="finance-periods" id="period-dropdown"></periods-dropdown>
+                        <label class="label-upper" for="period">Период показателя:</label>
+                        <select-periods class="select--w120" id="period"></select-periods>
                     </div>
                     <div class="form-group"><i class="fa fa-plus finance-plus"></i></div>
                 </div>
-
-
-
-
-
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="label-upper" for="okopf">Организационно-правовая форма: (ОКОПФ)</label>
+                    <select-okopf id="okopf" class="select--w100p"></select-okopf>
+                </div>
             </div>
             <div class="col-xs-6">
-                <input type="date" /> -
-                <input type="date" />
-                <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
-                <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
-
+                <div class="form-group">
+                    <label class="label-upper" for="okfs">Форма собственности: (ОКФС)</label>
+                    <select-okfs id="okfs" class="select--w100p"></select-okfs>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="label-upper" for="headcount">Численность: (чел)</label>
+                    <select-headcount id="headcount" class="select--w100p"></select-headcount>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-inline form-group">
+                    <label class="label-upper">Дата регистрации:</label>
+                    <input class="form-control " type="date"/> -
+                    <input class="form-control" type="date"/>
+                    <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
+                    <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="label-upper" for="address">Адрес:</label>
+                    <input id="address" type="text" class="form-control" placeholder="например, Москва Наметкина 16"/>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <a class="dashed" href="">Выбрать вид деятельности</a><span> (ОКВЭД)</span>
-                <div>
-                    <div class="checkbox-inline">
-                        <label><input type="radio" name="okato"> Основной</label>
-                    </div>
-                    <div class="checkbox-inline">
-                        <label><input type="radio" name="okato"> По регистрации</label>
+                <div class="form-group">
+                    <a class="dashed" href="">Выбрать вид деятельности</a><span> (ОКВЭД)</span>
+                    <div>
+                        <div class="radio-inline">
+                            <label><input type="radio" name="okato"> Основной</label>
+                        </div>
+                        <div class="radio-inline">
+                            <label><input type="radio" name="okato"> По регистрации</label>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12">
-
                 <a class="dashed" href="">Выбрать регион</a><span> (ОКАТО)</span>
             </div>
         </div>

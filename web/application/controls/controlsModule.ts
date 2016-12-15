@@ -20,19 +20,20 @@ import {TabsControl} from "./tabs/tabs";
 import {CompaniesListControl} from "./tables/companies-list/companies-list";
 import {IchpListControl} from "./tables/ichp-list/ichp-list";
 import {BusinessmenListControl} from "./tables/businessmen-list/businessmen-list";
-import {OperatorsDropwownControl} from "./dropdown/operators/operators";
+import {OperatorsDropwownControl} from "./dropdown/standart/operators";
 import {CommonModule} from "@angular/common";
 import {NavbarService} from "../providers/navbar";
-import {HeadcountDropwownControl} from "./dropdown/headcount/headcount";
-import {OkfsDropwownControl} from "./dropdown/okfs/okfs";
-import {OkopfDropwownControl} from "./dropdown/okopf/okopf";
-import {AssetsDropwownControl} from "./dropdown/assets/assets";
-import {PeriodsDropwownControl} from "./dropdown/period/periods";
+import {HeadcountDropwownControl} from "./dropdown/standart/headcount";
+import {OkfsDropwownControl} from "./dropdown/templated/okfs";
+import {OkopfDropwownControl} from "./dropdown/templated/okopf";
+import {AssetsDropwownControl} from "./dropdown/standart/assets";
+import {PeriodsDropwownControl} from "./dropdown/standart/periods";
+import {CurrencyDropwownControl} from "./dropdown/standart/currency";
+import {BaseDropwownControl} from "./dropdown/base";
 
 @NgModule({
     imports: [RouterModule,Ng2BootstrapModule,CommonModule],
     declarations: [
-
         NavbarControl,
         FeaturesControl,
         SearchBusinessmenPersonControl,
@@ -56,6 +57,7 @@ import {PeriodsDropwownControl} from "./dropdown/period/periods";
         AssetsDropwownControl,
         PeriodsDropwownControl,
         OperatorsDropwownControl,
+        CurrencyDropwownControl
     ],
     exports: [
 
@@ -82,6 +84,7 @@ import {PeriodsDropwownControl} from "./dropdown/period/periods";
         AssetsDropwownControl,
         PeriodsDropwownControl,
         OperatorsDropwownControl,
+        CurrencyDropwownControl
     ],
     providers:[NavbarService]
 })

@@ -2,13 +2,13 @@ import {Component} from "@angular/core";
 
 @Component({
     moduleId: module.id,
-    selector: 'assets-dropdown',
-    templateUrl: 'assets.html'
+    selector: 'select-periods',
+    templateUrl: 'standart.html'
 })
-export class AssetsDropwownControl {
+export class PeriodsDropwownControl {
     public disabled: boolean = false;
     public status: {isopen: boolean} = {isopen: false};
-    public items: string[] = ['АКТИВЫ всего', 'Валовая прибыль', 'ВНЕОБОРОТНЫЕ АКТИВЫ', 'Выручка'];
+    public items: string[] = ['2015 год', '2014 год', '2013 год', '2012 год'];
     public selectedItem: string = this.items[0];
 
     public toggled(open: boolean): void {

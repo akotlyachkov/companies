@@ -1,15 +1,8 @@
-import {Component} from "@angular/core";
-
-@Component({
-    moduleId: module.id,
-    selector: 'operators-dropdown',
-    templateUrl: 'operators.html'
-})
-export class OperatorsDropwownControl {
+export class BaseDropwownControl {
     public disabled: boolean = false;
+    public selectedItem: string;
+    public items: string[];
     public status: {isopen: boolean} = {isopen: false};
-    public items: string[] = ['>', '<', '>=', '<='];
-    public selectedItem: string = this.items[0];
 
     public toggled(open: boolean): void {
         console.log('Dropdown is now: ', open);
@@ -21,10 +14,8 @@ export class OperatorsDropwownControl {
         this.status.isopen = !this.status.isopen;
     }
 
-    public selectMenuItem(item:string): void{
+    public selectMenuItem(item: string): void {
         this.selectedItem = item;
         console.log('Selected: ', item);
     }
-
-
 }

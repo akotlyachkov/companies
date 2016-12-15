@@ -20,23 +20,28 @@
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Название/ФИО учредителя, например, Газпром">
+                    <label class="label-upper">Название/ФИО учредителя:</label>
+                    <input type="text" class="form-control" placeholder="например, Газпром">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="ИНН/ОГРН/ОКПО, например, 1234567891">
+                    <label class="label-upper">ИНН/ОГРН/ОКПО:</label>
+                    <input type="text" class="form-control" placeholder="например, 1234567891">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-6 form-inline">
-                <div class="form-group">
-                    <span>Доля учредителя:</span>
-                    <operators-dropdown></operators-dropdown>
-                    <input type="text" class="form-control inline" placeholder="Величина доли">
+            <div class="col-xs-12 col-md-6">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label class="label-upper">Доля учредителя:</label>
+                        <select-operators class="select--w55"></select-operators>
+                        <input type="text" class="form-control inline" placeholder="Величина доли">
+                        <select-currency class="select--w65"></select-currency>
+                    </div>
                 </div>
             </div>
         </div>

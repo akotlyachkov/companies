@@ -1,13 +1,54 @@
 .label-upper {
     display: block;
 }
-.dropdown-btn-name{
+
+.dropdown-btn-name {
     text-align: left;
     display: block;
 }
-.caret{
+
+.caret {
     position: absolute;
     right: 10px;
     top: 45%;
+}
+
+.select {
+    &--w55 {
+        .dropdown,
+        .dropdown button,
+        .dropdown ul {
+            width: 55px;
+        }
+    }
+    &--w65 {
+        .dropdown,
+        .dropdown button,
+        .dropdown ul {
+            width: 65px;
+        }
+    }
+    &--w120 {
+        .dropdown,
+        .dropdown button,
+        .dropdown ul {
+            width: 120px;
+        }
+    }
+    &--w100p {
+        .dropdown,
+        .dropdown button,
+        .dropdown ul {
+            width: 100%;
+        }
+    }
+
+
+    &--without-label {
+        .dropdown {
+            margin-top: 19px;
+        }
+
+    }
 }
 

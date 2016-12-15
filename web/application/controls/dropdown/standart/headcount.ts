@@ -2,13 +2,19 @@ import {Component} from "@angular/core";
 
 @Component({
     moduleId: module.id,
-    selector: 'okfs-dropdown',
-    templateUrl: 'okfs.html'
+    selector: 'select-headcount',
+    templateUrl: 'standart.html'
 })
-export class OkfsDropwownControl {
+export class HeadcountDropwownControl {
     public disabled: boolean = false;
     public status: {isopen: boolean} = {isopen: false};
-    public items: string[] = ['>', '<', '>=', '<='];
+    public items: string[] = ['Не задана',
+        '1 - 5',
+        '5 - 20',
+        '20 - 50',
+        '50 - 100',
+        '100 - 200',
+        '200 - 500'];
     public selectedItem: string = this.items[0];
 
     public toggled(open: boolean): void {

@@ -1,0 +1,13 @@
+.checkbox-inline,
+.radio-inline{
+    label,
+    input{
+        cursor: pointer;
+    }
+
+}
+.radio-inline{
+    label{
+        margin-bottom: 1px;
+    }
+}
