@@ -16,6 +16,8 @@ import {IchpPage} from "./ichp";
 import {SearchIchpIdentificationControl} from "../controls/search/ichp/identification/identification";
 import {BusinessmenPage} from "./businessmen";
 import {SearchIchpSimpleControl} from "../controls/search/ichp/simple/simple";
+import {SearchBusinessmenSimpleControl} from "../controls/search/businessmen/simple/simple";
+import {SearchBusinessmenIdentificationControl} from "../controls/search/businessmen/identification/identification";
 
 
 const appRoutes: Routes = [
@@ -38,7 +40,8 @@ const appRoutes: Routes = [
         },
         {
             path: 'businessmen', component: BusinessmenPage, children: [
-            {path: '', component: SearchIchpIdentificationControl},
+            {path: '', component: SearchBusinessmenSimpleControl},
+            {path: 'identification', component: SearchBusinessmenIdentificationControl},
             {path: 'person', component: SearchIchpIdentificationControl},
         ]
         }

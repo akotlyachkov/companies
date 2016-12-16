@@ -36,18 +36,12 @@
                         <label class="label-upper" for="assets">Название показателя:</label>
                         <select-assets class="select--w100p" id="assets"></select-assets>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-xs-6">
                         <select-operators class="select--w55 select--without-label"></select-operators>
+                        <input id="finval" type="text" class="form-control form-control--finval gap-nolabel" placeholder="Значение показателя в руб."/>
+                        <select-periods class="select--w120 select--without-label" id="period"></select-periods>
+                        <button class="btn btn-success gap-nolabel"><i class="fa fa-plus"></i></button>
                     </div>
-                    <div class="form-group">
-                        <label class="label-upper" for="finval">Значение:</label>
-                        <input id="finval" type="text" class="form-control finance-value" placeholder="Значение показателя в руб."/>
-                    </div>
-                    <div class="form-group">
-                        <label class="label-upper" for="period">Период показателя:</label>
-                        <select-periods class="select--w120" id="period"></select-periods>
-                    </div>
-                    <div class="form-group"><i class="fa fa-plus finance-plus"></i></div>
                 </div>
             </div>
         </div>
@@ -75,25 +69,14 @@
             <div class="col-xs-6">
                 <div class="form-inline form-group">
                     <label class="label-upper">Дата регистрации:</label>
-                    <input class="form-control " type="date"/> -
-                    <input class="form-control" type="date"/>
-                    <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
-                    <!--<datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>-->
+                    <input class="form-control " type="date"/> - <input class="form-control" type="date"/>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-6">
                 <div class="form-group">
-                    <label class="label-upper" for="address">Адрес:</label>
-                    <input id="address" type="text" class="form-control" placeholder="например, Москва Наметкина 16"/>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="form-group">
-                    <a class="dashed" href="">Выбрать вид деятельности</a><span> (ОКВЭД)</span>
+                    <a class="dashed" >Выбрать вид деятельности</a><span> (ОКВЭД)</span>
                     <div>
                         <div class="radio-inline">
                             <label><input type="radio" name="okato"> Основной</label>
@@ -104,10 +87,19 @@
                     </div>
                 </div>
             </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="label-upper" for="address">Адрес:</label>
+                    <input id="address" type="text" class="form-control" placeholder="например, Москва Наметкина 16"/>
+                </div>
+            </div>
         </div>
         <div class="row">
-            <div class="col-xs-12">
-                <a class="dashed" href="">Выбрать регион</a><span> (ОКАТО)</span>
+            <div class="col-xs-10">
+                <a class="dashed" >Выбрать регион</a><span> (ОКАТО)</span>
+            </div>
+            <div class="col-xs-2">
+                <a class="pull-right dashed">Очистить</a>
             </div>
         </div>
     </div>

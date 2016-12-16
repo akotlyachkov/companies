@@ -1,1 +1,15 @@
-<div>simple</div>
+<div class="form-group">
+    <button type="submit " class="btn btn-default pull-right search__button">Найти</button>
+    <div class="search__input">
+        <input type="text" class="form-control" placeholder="ФИО, ИНН, ОГРНИП или ОКПО предпринимателя">
+    </div>
+</div>
+<div class="form-group">
+    <div class="checkbox-inline">
+        <label for="exclude" class="search__checkbox"><input id="exclude" type="checkbox">Исключить недействующих предпринимателей</label>
+    </div>
+</div>
+<ul class="list-unstyled list-inline ">
+    <li routerLinkActive="active" class="search__tab-mode search__tab-mode--first"><a class="dashed dashed--white" routerLink="/ichp/identification">Реквизиты</a></li>
+
+</ul>

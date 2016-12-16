@@ -1,1 +1,21 @@
-<div>simple</div>
+<div class="form-group">
+    <button type="submit " class="btn btn-default pull-right search__button">Найти</button>
+    <div class="search__input">
+        <input type="text" class="form-control" placeholder="Название, ИНН, ОГРН, ОКПО или руководитель компании">
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="checkbox-inline">
+        <label for="exclude" class="search__checkbox"><input id="exclude" type="checkbox">Исключить недействующие компании и ИП</label>
+    </div>
+    <div class="checkbox-inline">
+        <label for="inactive" class="search__checkbox"><input id="inactive" type="checkbox">Искать в истории</label>
+    </div>
+    <div class="checkbox-inline">
+        <label for="history" class="search__checkbox"><input id="history" type="checkbox">Исключить пустые ИНН</label>
+    </div>
+</div>
+<ul class="list-unstyled list-inline ">
+    <li routerLinkActive="active" class="search__tab-mode search__tab-mode--first"><a class="dashed dashed--white" routerLink="/businessmen/identification">Реквизиты</a></li>
+</ul>

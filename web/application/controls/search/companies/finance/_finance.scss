@@ -5,6 +5,7 @@
         width: 200px;
     }
 }
+
 .finance-currency,
 .finance-operators {
 
@@ -13,12 +14,14 @@
         width: 80px;
     }
 }
-.finance-value{
+
+.finance-value {
     min-width: 300px;
 
 }
-.finance-plus{
-    font-size: 35px;
-    margin-top: 18px;
 
+.form-control {
+    &.form-control--finval {
+        width: calc(100% - 223px);
+    }
 }

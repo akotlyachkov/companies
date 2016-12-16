@@ -30,6 +30,7 @@ import {AssetsDropwownControl} from "./dropdown/standart/assets";
 import {PeriodsDropwownControl} from "./dropdown/standart/periods";
 import {CurrencyDropwownControl} from "./dropdown/standart/currency";
 import {BaseDropwownControl} from "./dropdown/base";
+import {SearchBusinessmenIdentificationControl} from "./search/businessmen/identification/identification";
 
 @NgModule({
     imports: [RouterModule,Ng2BootstrapModule,CommonModule],
@@ -38,6 +39,7 @@ import {BaseDropwownControl} from "./dropdown/base";
         FeaturesControl,
         SearchBusinessmenPersonControl,
         SearchBusinessmenSimpleControl,
+        SearchBusinessmenIdentificationControl,
         SearchCompaniesFinanceControl,
         SearchCompaniesFoundersControl,
         SearchCompaniesIdentificationControl,
@@ -65,6 +67,7 @@ import {BaseDropwownControl} from "./dropdown/base";
         FeaturesControl,
         SearchBusinessmenPersonControl,
         SearchBusinessmenSimpleControl,
+        SearchBusinessmenIdentificationControl,
         SearchCompaniesFinanceControl,
         SearchCompaniesFoundersControl,
         SearchCompaniesIdentificationControl,
