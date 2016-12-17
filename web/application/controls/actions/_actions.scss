@@ -1,0 +1,10 @@
+.action-icon {
+    text-shadow: 0px 0px 10px rgba(150, 150, 150, 0.5);
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+        color: #ec971f;
+    }
+}

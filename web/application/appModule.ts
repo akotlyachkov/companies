@@ -1,5 +1,7 @@
 import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
+import {PaginationModule} from "ng2-bootstrap/ng2-bootstrap";
+
 import {MasterLayout} from "./layouts/master";
 import {MainLayout} from "./layouts/main";
 import {RoutingModule} from "./pages/routes";
@@ -12,6 +14,7 @@ import {CompaniesPage} from "./pages/companies";
 import {IchpPage} from "./pages/ichp";
 import {BusinessmenPage} from "./pages/businessmen";
 import {DataModule} from "./providers/providersModule";
+
 
 @NgModule({
     declarations: [
@@ -27,7 +30,7 @@ import {DataModule} from "./providers/providersModule";
 
 
     ],
-    imports: [BrowserModule, RoutingModule, ControlsModule, DataModule],
+    imports: [BrowserModule, RoutingModule, ControlsModule, DataModule,PaginationModule],
     bootstrap: [MasterLayout]
 })
 export class AppModule {

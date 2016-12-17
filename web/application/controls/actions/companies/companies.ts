@@ -3,10 +3,11 @@ import {Component} from "@angular/core";
 
 @Component({
     moduleId: module.id,
-    selector: 'actions',
-    templateUrl: 'actions.html'
+    selector: 'actions-companies',
+    host:{class:"pull-right"},
+    templateUrl: 'companies.html'
 })
-export class ActionsControl {
+export class ActionsCompaniesControl {
 
     showModal1(){
         console.log('модал1')

@@ -17,7 +17,7 @@ router.post('/companies/search', function (req, res, next) {
 });
 
 router.post('/companies/count', function (req, res, next) {
-    res.send({count: 12080710});
+    res.send({count: 120});
 });
 
 router.post('/navbar', function (req, res, next) {

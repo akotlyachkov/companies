@@ -9,14 +9,17 @@ import {SearchFilter} from "../entities/searchFilter";
     providers: [CompaniesService],
     template: `
 <router-outlet></router-outlet>
+<actions-companies></actions-companies>
 <selector></selector>
 <companies-list [companies]="companies"></companies-list>
+<pagination [totalItems]="totalItems" [(ngModel)]="currentPage" (pageChanged)="pageChanged($event)"></pagination>
 `
 })
 export class CompaniesPage implements OnInit {
 
     companies: Companie[];
-    count: number;
+    totalItems: number;
+    currentPage: number;
 
     constructor(private companieService: CompaniesService) {
 
@@ -26,7 +29,10 @@ export class CompaniesPage implements OnInit {
 
     ngOnInit(): void {
 
-        this.companieService.count().subscribe(response => this.count = response);
+        this.companieService.count().subscribe(response => this.totalItems = response);
         this.companieService.search(this.filter).subscribe(response => this.companies = response);
+    }
+    pageChanged (event){
+
     }
 }

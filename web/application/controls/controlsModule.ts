@@ -1,4 +1,3 @@
-
 import {NgModule} from "@angular/core";
 import {RouterModule} from "@angular/router";
 import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
@@ -7,7 +6,7 @@ import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
 import {NavbarControl} from "./navbar/navbar";
 import {FeaturesControl} from "./features/features";
 import {SelectorControl} from "./selector/selector";
-import {ActionsControl} from "./actions/actions";
+import {ActionsCompaniesControl} from "./actions/companies/companies";
 import {SearchBusinessmenPersonControl} from "./search/businessmen/person/person";
 import {SearchBusinessmenSimpleControl} from "./search/businessmen/simple/simple";
 import {SearchCompaniesFinanceControl} from "./search/companies/finance/finance";
@@ -29,7 +28,6 @@ import {OkopfDropwownControl} from "./dropdown/templated/okopf";
 import {AssetsDropwownControl} from "./dropdown/standart/assets";
 import {PeriodsDropwownControl} from "./dropdown/standart/periods";
 import {CurrencyDropwownControl} from "./dropdown/standart/currency";
-import {BaseDropwownControl} from "./dropdown/base";
 import {SearchBusinessmenIdentificationControl} from "./search/businessmen/identification/identification";
 
 @NgModule({
@@ -47,8 +45,7 @@ import {SearchBusinessmenIdentificationControl} from "./search/businessmen/ident
         SearchIchpIdentificationControl,
         SearchIchpSimpleControl,
         SelectorControl,
-        ActionsControl,
-        //PagerControl,
+        ActionsCompaniesControl,
         TabsControl,
         CompaniesListControl,
         IchpListControl,
@@ -75,8 +72,7 @@ import {SearchBusinessmenIdentificationControl} from "./search/businessmen/ident
         SearchIchpIdentificationControl,
         SearchIchpSimpleControl,
         SelectorControl,
-        ActionsControl,
-        //PagerControl,
+        ActionsCompaniesControl,
         TabsControl,
         CompaniesListControl,
         IchpListControl,
