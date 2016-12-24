@@ -1,17 +1,34 @@
+features{
+    margin-bottom: 20px;
+    display: block;
+}
 .feature {
     text-align: center;
-    height: 80px;
-    width: 150px;
+    max-width: 120px;
     vertical-align: top;
+    &--small{
+        width: 95px;
+    }
     &__icon {
         font-size: 36px;
+        margin-bottom: 10px;
     }
     &__name {
         display: block;
     }
-    &__link{
-        &:hover{
+    &__link {
+        //padding: 10px;
+        //width: 120px;
+        //height: 100px;
+        //display: inline-block;
+        //border: 1px solid;
+        //border-radius: 4px;
+        &:hover {
             text-decoration: none;
         }
     }
+}
+
+.feature + .feature {
+    margin-left: 40px;
 }

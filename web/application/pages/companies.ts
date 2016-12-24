@@ -1,4 +1,4 @@
-import {Component, OnInit} from "@angular/core";
+import {Component, OnInit, ViewChild} from "@angular/core";
 import {CompaniesService} from "../providers/companies";
 import {Companie} from "../entities/companie";
 import {SearchFilter} from "../entities/searchFilter";
@@ -13,6 +13,8 @@ import {SearchFilter} from "../entities/searchFilter";
 <selector></selector>
 <companies-list [companies]="companies"></companies-list>
 <pagination [totalItems]="totalItems" [(ngModel)]="currentPage" (pageChanged)="pageChanged($event)"></pagination>
+<button class="btn btn-primary" (click)="test()">Large modal</button>
+<query-history-modal #mod [showChildModal]="test"></query-history-modal>
 `
 })
 export class CompaniesPage implements OnInit {
@@ -32,7 +34,15 @@ export class CompaniesPage implements OnInit {
         this.companieService.count().subscribe(response => this.totalItems = response);
         this.companieService.search(this.filter).subscribe(response => this.companies = response);
     }
-    pageChanged (event){
 
+    pageChanged(event) {
+
+    }
+
+    @ViewChild('mod') mod;
+
+    test() {
+        console.log('dfdf');
+        this.mod.showChildModal()
     }
 }
