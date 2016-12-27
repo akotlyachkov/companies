@@ -6,6 +6,7 @@ import {NavbarItem} from "../../entities/navbarItem";
 @Component({
     moduleId: module.id,
     selector: 'navbar',
+    host:{class:'navbar navbar-default navbar-static-top'},
     templateUrl: 'navbar.html'
 })
 export class NavbarControl implements OnInit {

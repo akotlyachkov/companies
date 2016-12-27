@@ -1,0 +1,37 @@
+
+
+<div bsModal #historyModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content query-history">
+            <div class="modal-header">
+                <button type="button" class="close" (click)="historyModal.hide()" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">История моих запросов</h4>
+            </div>
+            <div class="modal-body">
+                <p>Нажмите на запрос чтобы увидеть результаты</p>
+                <div class="modal__queries">
+                    <!--<div class="query-history__link" *ngfor="let query of queries" [innerHtml]="query.textWithMarkup">-->
+                        <div class="query-history__link js-query-select" data-queryid="5174899">
+                            <div class="query-history__field-item">
+                                <span class="query-history__field-name">ФИО персоны: </span>
+                                <span class="query-history__field-value">fg</span>
+                            </div>
+                            <div class="query-history__field-item">
+                                <span class="query-history__field-name">Дата: </span>
+                                <span class="query-history__field-value">16.12.2016</span>
+                            </div>
+                            <div class="query-history__restore flex-container-right">
+                                <span class="btn btn-default">Восстановить</span>
+                            </div>
+                        </div>
+                    <!--</div>-->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>

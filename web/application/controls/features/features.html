@@ -1,3 +1,15 @@
+<ul class="list-inline list-unstyled pull-right">
+    <li class="feature feature--small" >
+        <a class="feature__link" routerLink="#">
+            <i class="feature__icon fa fa-binoculars"></i><span class="feature__name">Мои мониторинги</span>
+        </a>
+    </li>
+    <li class="feature feature--small" >
+        <a class="feature__link" routerLink="#">
+            <i class="feature__icon fa fa-history"></i><span class="feature__name">История запросов</span>
+        </a>
+    </li>
+</ul>
 <ul class="list-inline list-unstyled">
     <li class="feature" *ngFor="let feature of features">
         <a class="feature__link" routerLink={{feature.link}}>
