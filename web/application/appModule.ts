@@ -1,6 +1,6 @@
 import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
-import {PaginationModule, ModalModule} from "ng2-bootstrap/ng2-bootstrap";
+import {PaginationModule} from "ng2-bootstrap/ng2-bootstrap";
 import {CommonModule} from "@angular/common";
 
 import {MasterLayout} from "./layouts/master";
@@ -15,7 +15,7 @@ import {CompaniesPage} from "./pages/companies";
 import {IchpPage} from "./pages/ichp";
 import {BusinessmenPage} from "./pages/businessmen";
 import {DataModule} from "./providers/providersModule";
-import {PersonQueryHistoryModal} from "./modals/history/history";
+import {ModalsModule} from "./modals/modalsModule";
 
 
 @NgModule({
@@ -28,11 +28,11 @@ import {PersonQueryHistoryModal} from "./modals/history/history";
         ErrorPage,
         NotFoundPage,
         LoginPage,
-        Page2,
-        PersonQueryHistoryModal
+        Page2
+
 
     ],
-    imports: [BrowserModule, RoutingModule, ControlsModule, DataModule, PaginationModule, ModalModule, CommonModule],
+    imports: [BrowserModule, RoutingModule, ControlsModule, DataModule, PaginationModule, ModalsModule, CommonModule],
     bootstrap: [MasterLayout]
 })
 export class AppModule {

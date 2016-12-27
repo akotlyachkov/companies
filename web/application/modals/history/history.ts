@@ -1,5 +1,5 @@
-import {Component, ViewChild, Input} from "@angular/core";
-import {ModalDirective} from "ng2-bootstrap/ng2-bootstrap";
+import {Component, ViewChild, Input, ViewContainerRef} from "@angular/core";
+import {ModalDirective, ComponentsHelper} from "ng2-bootstrap/ng2-bootstrap";
 
 
 @Component({
@@ -9,6 +9,9 @@ import {ModalDirective} from "ng2-bootstrap/ng2-bootstrap";
 })
 export class PersonQueryHistoryModal {
 
+    constructor(private componentsHelper: ComponentsHelper, private vcr: ViewContainerRef) {
+        componentsHelper.setRootViewContainerRef(vcr);
+    }
     queries = [{textWithMarkup: ''}];
 
     @ViewChild('historyModal')
