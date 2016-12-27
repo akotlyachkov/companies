@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c412b9e5-3ced-487a-8acb-613162d314f9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/appModule.js" afterPath="$PROJECT_DIR$/web/application/appModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/actions/companies/companies.js" afterPath="$PROJECT_DIR$/web/application/controls/actions/companies/companies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/controlsModule.js" afterPath="$PROJECT_DIR$/web/application/controls/controlsModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/assets.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/assets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/currency.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/currency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/headcount.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/headcount.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/operators.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/operators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/periods.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/periods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okfs.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okfs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okopf.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okopf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/features/features.js" afterPath="$PROJECT_DIR$/web/application/controls/features/features.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/navbar/navbar.js" afterPath="$PROJECT_DIR$/web/application/controls/navbar/navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/businessmen/identification/identification.js" afterPath="$PROJECT_DIR$/web/application/controls/search/businessmen/identification/identification.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/businessmen/person/person.js" afterPath="$PROJECT_DIR$/web/application/controls/search/businessmen/person/person.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/businessmen/simple/simple.js" afterPath="$PROJECT_DIR$/web/application/controls/search/businessmen/simple/simple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/finance/finance.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/finance/finance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/founders/founders.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/founders/founders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/identification/identification.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/identification/identification.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/simple/simple.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/simple/simple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/ichp/identification/identification.js" afterPath="$PROJECT_DIR$/web/application/controls/search/ichp/identification/identification.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/ichp/simple/simple.js" afterPath="$PROJECT_DIR$/web/application/controls/search/ichp/simple/simple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/selector/selector.js" afterPath="$PROJECT_DIR$/web/application/controls/selector/selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tables/businessmen-list/businessmen-list.js" afterPath="$PROJECT_DIR$/web/application/controls/tables/businessmen-list/businessmen-list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tables/companies-list/companies-list.js" afterPath="$PROJECT_DIR$/web/application/controls/tables/companies-list/companies-list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tables/ichp-list/ichp-list.js" afterPath="$PROJECT_DIR$/web/application/controls/tables/ichp-list/ichp-list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tabs/tabs.js" afterPath="$PROJECT_DIR$/web/application/controls/tabs/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/entities/Companie.js" afterPath="$PROJECT_DIR$/web/application/entities/Companie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/entities/NavbarItem.js" afterPath="$PROJECT_DIR$/web/application/entities/NavbarItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/entities/SearchFilter.js" afterPath="$PROJECT_DIR$/web/application/entities/SearchFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/layouts/main.js" afterPath="$PROJECT_DIR$/web/application/layouts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/layouts/master.js" afterPath="$PROJECT_DIR$/web/application/layouts/master.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/businessmen.js" afterPath="$PROJECT_DIR$/web/application/pages/businessmen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/companies.js" afterPath="$PROJECT_DIR$/web/application/pages/companies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/error/error.js" afterPath="$PROJECT_DIR$/web/application/pages/error/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/ichp.js" afterPath="$PROJECT_DIR$/web/application/pages/ichp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/login/login.js" afterPath="$PROJECT_DIR$/web/application/pages/login/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/notfound/notfound.js" afterPath="$PROJECT_DIR$/web/application/pages/notfound/notfound.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/page2/page2.js" afterPath="$PROJECT_DIR$/web/application/pages/page2/page2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/routes.js" afterPath="$PROJECT_DIR$/web/application/pages/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/providers/companies.js" afterPath="$PROJECT_DIR$/web/application/providers/companies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/providers/navbar.js" afterPath="$PROJECT_DIR$/web/application/providers/navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/providers/providersModule.js" afterPath="$PROJECT_DIR$/web/application/providers/providersModule.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/start.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunManager" selected="Node.js.start.js">
+    <configuration default="false" name="start.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="start.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="debug-watch" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="debug-watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug-watch-sass" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="debug-watch-sass" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.start.js" />
+      <item index="1" class="java.lang.String" itemvalue="npm.debug-watch" />
+      <item index="2" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
+        <item index="1" class="java.lang.String" itemvalue="npm.debug-watch" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.start.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c412b9e5-3ced-487a-8acb-613162d314f9" name="Default" comment="" />
+      <created>1482158046709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482158046709</updated>
+      <workItem from="1482158047822" duration="1955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1955000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5041494" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3153527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/web/application/start.js" />
+        <option value="$PROJECT_DIR$/web/application/appModule.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/ichp.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/routes.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/companies.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/businessmen.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/error/error.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/login/login.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/page2/page2.js" />
+        <option value="$PROJECT_DIR$/web/application/pages/notfound/notfound.js" />
+        <option value="$PROJECT_DIR$/web/application/layouts/main.js" />
+        <option value="$PROJECT_DIR$/web/application/layouts/master.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/controlsModule.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/tabs/tabs.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/pager/pager.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/navbar/navbar.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/ichp/simple/simple.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/ichp/identification/identification.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/companies/simple/simple.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/companies/finance/finance.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/companies/founders/founders.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/companies/identification/identification.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/tables/ichp-list/ichp-list.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/tables/companies-list/companies-list.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/tables/businessmen-list/businessmen-list.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/features/features.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/selector/selector.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/base.js" />
+        <option value="$PROJECT_DIR$/web/application/providers/companies.js" />
+        <option value="$PROJECT_DIR$/web/application/providers/navbar.js" />
+        <option value="$PROJECT_DIR$/web/application/providers/providersModule.js" />
+        <option value="$PROJECT_DIR$/web/application/entities/Companie.js" />
+        <option value="$PROJECT_DIR$/web/application/entities/SearchFilter.js" />
+        <option value="$PROJECT_DIR$/web/application/entities/NavbarItem.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/businessmen/person/person.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/businessmen/simple/simple.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/search/businessmen/identification/identification.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/actions/companies/companies.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/templated/okopf.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/templated/okfs.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/standart/currency.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/standart/operators.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/standart/periods.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/standart/assets.js" />
+        <option value="$PROJECT_DIR$/web/application/controls/dropdown/standart/headcount.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
