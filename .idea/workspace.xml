@@ -2,52 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c412b9e5-3ced-487a-8acb-613162d314f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/appModule.js" afterPath="$PROJECT_DIR$/web/application/appModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/actions/companies/companies.js" afterPath="$PROJECT_DIR$/web/application/controls/actions/companies/companies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/controlsModule.js" afterPath="$PROJECT_DIR$/web/application/controls/controlsModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/assets.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/assets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/currency.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/currency.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/headcount.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/headcount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/operators.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/operators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/standart/periods.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/standart/periods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okfs.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okfs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okopf.js" afterPath="$PROJECT_DIR$/web/application/controls/dropdown/templated/okopf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/features/features.js" afterPath="$PROJECT_DIR$/web/application/controls/features/features.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/navbar/navbar.js" afterPath="$PROJECT_DIR$/web/application/controls/navbar/navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/businessmen/identification/identification.js" afterPath="$PROJECT_DIR$/web/application/controls/search/businessmen/identification/identification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/businessmen/person/person.js" afterPath="$PROJECT_DIR$/web/application/controls/search/businessmen/person/person.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/businessmen/simple/simple.js" afterPath="$PROJECT_DIR$/web/application/controls/search/businessmen/simple/simple.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/finance/finance.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/finance/finance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/founders/founders.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/founders/founders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/identification/identification.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/identification/identification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/companies/simple/simple.js" afterPath="$PROJECT_DIR$/web/application/controls/search/companies/simple/simple.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/ichp/identification/identification.js" afterPath="$PROJECT_DIR$/web/application/controls/search/ichp/identification/identification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/search/ichp/simple/simple.js" afterPath="$PROJECT_DIR$/web/application/controls/search/ichp/simple/simple.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/selector/selector.js" afterPath="$PROJECT_DIR$/web/application/controls/selector/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tables/businessmen-list/businessmen-list.js" afterPath="$PROJECT_DIR$/web/application/controls/tables/businessmen-list/businessmen-list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tables/companies-list/companies-list.js" afterPath="$PROJECT_DIR$/web/application/controls/tables/companies-list/companies-list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tables/ichp-list/ichp-list.js" afterPath="$PROJECT_DIR$/web/application/controls/tables/ichp-list/ichp-list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/tabs/tabs.js" afterPath="$PROJECT_DIR$/web/application/controls/tabs/tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/entities/Companie.js" afterPath="$PROJECT_DIR$/web/application/entities/Companie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/entities/NavbarItem.js" afterPath="$PROJECT_DIR$/web/application/entities/NavbarItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/entities/SearchFilter.js" afterPath="$PROJECT_DIR$/web/application/entities/SearchFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/layouts/main.js" afterPath="$PROJECT_DIR$/web/application/layouts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/layouts/master.js" afterPath="$PROJECT_DIR$/web/application/layouts/master.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/businessmen.js" afterPath="$PROJECT_DIR$/web/application/pages/businessmen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.js" afterPath="$PROJECT_DIR$/web/application/modals/history/history.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/companies.js" afterPath="$PROJECT_DIR$/web/application/pages/companies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/error/error.js" afterPath="$PROJECT_DIR$/web/application/pages/error/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/ichp.js" afterPath="$PROJECT_DIR$/web/application/pages/ichp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/login/login.js" afterPath="$PROJECT_DIR$/web/application/pages/login/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/notfound/notfound.js" afterPath="$PROJECT_DIR$/web/application/pages/notfound/notfound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/page2/page2.js" afterPath="$PROJECT_DIR$/web/application/pages/page2/page2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/routes.js" afterPath="$PROJECT_DIR$/web/application/pages/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/providers/companies.js" afterPath="$PROJECT_DIR$/web/application/providers/companies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/providers/navbar.js" afterPath="$PROJECT_DIR$/web/application/providers/navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/providers/providersModule.js" afterPath="$PROJECT_DIR$/web/application/providers/providersModule.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,12 +24,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -84,6 +54,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -110,10 +81,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,6 +158,16 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="debug-tsc" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="debug-tsc" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -218,6 +199,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -240,16 +227,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.start.js" />
       <item index="1" class="java.lang.String" itemvalue="npm.debug-watch" />
       <item index="2" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
+      <item index="3" class="java.lang.String" itemvalue="npm.debug-tsc" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
-        <item index="1" class="java.lang.String" itemvalue="npm.debug-watch" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.start.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="npm.debug-tsc" />
+        <item index="1" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
+        <item index="2" class="java.lang.String" itemvalue="npm.debug-watch" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.start.js" />
       </list>
     </recent_temporary>
   </component>
@@ -264,33 +253,34 @@
       <option name="presentableId" value="Default" />
       <updated>1482158046709</updated>
       <workItem from="1482158047822" duration="1955000" />
+      <workItem from="1482836544213" duration="1509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1955000" />
+    <option name="totallyTimeSpent" value="3464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.48973143" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5041494" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3153527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.51026857" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31493506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -354,11 +344,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -366,6 +363,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding />
         </state>
       </provider>
