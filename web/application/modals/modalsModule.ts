@@ -1,6 +1,6 @@
 import {NgModule} from "@angular/core";
 import {ModalModule} from "ng2-bootstrap/ng2-bootstrap";
-import {PersonQueryHistoryModal} from "./history/history";
+import {PersonQueryHistoryModal} from "../features/bussinessmen/modals/history/history";
 
 
 @NgModule({

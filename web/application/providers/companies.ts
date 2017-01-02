@@ -6,7 +6,7 @@ import {SearchFilter} from "../entities/searchFilter";
 
 
 @Injectable()
-export class CompaniesService {
+export class CompaniesProvider {
 
     constructor(private http: Http) {
     }

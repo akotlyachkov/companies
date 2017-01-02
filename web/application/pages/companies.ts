@@ -1,14 +1,14 @@
 import {Component, OnInit, ViewChild} from "@angular/core";
-import {CompaniesService} from "../providers/companies";
+import {CompaniesProvider} from "../providers/companies";
 import {Companie} from "../entities/companie";
 import {SearchFilter} from "../entities/searchFilter";
-import {PersonQueryHistoryModal} from "../modals/history/history";
+import {PersonQueryHistoryModal} from "../features/bussinessmen/modals/history/history";
 
 
 @Component({
     moduleId: module.id,
     selector: 'companies',
-    providers: [CompaniesService],
+    providers: [CompaniesProvider],
     template: `
 <router-outlet></router-outlet>
 <actions-companies></actions-companies>
@@ -25,7 +25,7 @@ export class CompaniesPage implements OnInit {
     totalItems: number;
     currentPage: number;
 
-    constructor(private companieService: CompaniesService) {
+    constructor(private companieService: CompaniesProvider) {
 
     }
 
