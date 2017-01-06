@@ -1,4 +1,4 @@
-export class FilterCount {
+export class Filter {
     fio: string;
     inn: string;
     query: string;
@@ -7,6 +7,4 @@ export class FilterCount {
     includeHistory: boolean;
     okatoCodes: string;
     okvedCodes: string;
-
-
 }

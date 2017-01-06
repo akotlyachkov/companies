@@ -1,4 +1,7 @@
 import {Component} from "@angular/core";
+import {FilterService} from "../controls/search/SearchPanelService";
+import {Filter} from "../entities/Filter";
+import {BusinessmenProvider} from "../providers/businessmen";
 
 @Component({
     moduleId: module.id,
@@ -11,4 +14,17 @@ import {Component} from "@angular/core";
 })
 export class BusinessmenPage {
 
+    public filter: Filter;
+    public model;
+
+    constructor(private filterService: FilterService, private businessmenPrivider: BusinessmenProvider) {
+        this.filterService.filterObservable.subscribe(filter => {
+            this.filter = filter;
+            console.dir(this.filter);
+            businessmenPrivider.searchCount(this.filter).subscribe(
+                response => this.model = response,
+                error => console.dir(error)
+            );
+        })
+    }
 }

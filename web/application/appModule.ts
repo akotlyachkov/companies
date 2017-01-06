@@ -2,6 +2,7 @@ import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {PaginationModule} from "ng2-bootstrap/ng2-bootstrap";
 import {CommonModule} from "@angular/common";
+import {FormsModule}   from '@angular/forms';
 
 import {MasterLayout} from "./layouts/master";
 import {MainLayout} from "./layouts/main";
@@ -15,6 +16,8 @@ import {IchpPage} from "./pages/ichp";
 import {BusinessmenPage} from "./features/bussinessmen/pages/businessmen";
 import {DataModule} from "./providers/providersModule";
 import {ModalsModule} from "./modals/modalsModule";
+import {FilterService} from "./features/bussinessmen/controls/search/SearchPanelService";
+import {BusinessmenProvider} from "./features/bussinessmen/providers/businessmen";
 
 @NgModule({
     declarations: [
@@ -29,8 +32,9 @@ import {ModalsModule} from "./modals/modalsModule";
 
 
     ],
-    imports: [BrowserModule, RoutingModule, ControlsModule, DataModule, PaginationModule, ModalsModule, CommonModule],
-    bootstrap: [MasterLayout]
+    imports: [BrowserModule, RoutingModule, ControlsModule, DataModule, PaginationModule, ModalsModule, CommonModule, FormsModule],
+    bootstrap: [MasterLayout],
+    providers:[FilterService,BusinessmenProvider]
 })
 export class AppModule {
 

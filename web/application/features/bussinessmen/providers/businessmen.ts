@@ -4,9 +4,10 @@ import {Observable} from "rxjs";
 import {ResultFounders} from "../entities/ResultFounders";
 import {ResultChiefs} from "../entities/ResultChiefs";
 import {ResultIchp} from "../entities/ResultIchp";
-import {FilterCount} from "../entities/FilterCount";
+import {Filter} from "../entities/Filter";
 import {FilterSearch} from "../entities/FilterSearch";
 import {Tab} from "../entities/Tab";
+import {Switcher} from "../entities/Switcher";
 
 @Injectable()
 export class BusinessmenProvider{
@@ -34,12 +35,21 @@ export class BusinessmenProvider{
                 return res.json() as ResultIchp[]
             });
     }
-    searchCount(filter: FilterCount): Observable<Tab[]> {
+    searchCount(filter: Filter): Observable<Tab[]> {
         return this.http
-            .post('api/companies/count', filter)
+            .post('api/persons/search/count/', filter)
             .map((res: Response) => {
                 return res.json() as Tab[]
             });
     }
+
+    switch(text: string): Observable<Switcher> {
+        return this.http
+            .post('api/text/switch/', text)
+            .map((res: Response) => {
+                return res.json() as Switcher
+            });
+    }
+
 
 }

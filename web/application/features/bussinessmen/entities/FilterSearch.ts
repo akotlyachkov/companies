@@ -1,4 +1,4 @@
-import {FilterCount} from "./FilterCount";
-export class FilterSearch extends FilterCount{
+import {Filter} from "./Filter";
+export class FilterSearch extends Filter{
 
 }
