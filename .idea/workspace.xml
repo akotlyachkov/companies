@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46a9ef7d-e58a-40c4-8ee6-1b4a438fd28d" name="Default" comment="" />
+<<<<<<< HEAD
+    <list default="true" id="c412b9e5-3ced-487a-8acb-613162d314f9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/appModule.js" afterPath="$PROJECT_DIR$/web/application/appModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/controls/navbar/navbar.js" afterPath="$PROJECT_DIR$/web/application/controls/navbar/navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.js" afterPath="$PROJECT_DIR$/web/application/modals/history/history.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/companies.js" afterPath="$PROJECT_DIR$/web/application/pages/companies.js" />
+=======
+    <list default="true" id="46a9ef7d-e58a-40c4-8ee6-1b4a438fd28d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/modals/modalsModule.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.js" afterPath="$PROJECT_DIR$/api/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/appModule.js" afterPath="$PROJECT_DIR$/web/application/appModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/appModule.ts" afterPath="$PROJECT_DIR$/web/application/appModule.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.html" afterPath="$PROJECT_DIR$/web/application/modals/history/history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.js" afterPath="$PROJECT_DIR$/web/application/modals/history/history.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.ts" afterPath="$PROJECT_DIR$/web/application/modals/history/history.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/companies.js" afterPath="$PROJECT_DIR$/web/application/pages/companies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/companies.ts" afterPath="$PROJECT_DIR$/web/application/pages/companies.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/bootstrap/_modals.scss" afterPath="$PROJECT_DIR$/web/public/css/bootstrap/_modals.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/styles.css" afterPath="$PROJECT_DIR$/web/public/css/styles.css" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
+    </list>
     <ignored path="companies.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +46,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start.js">
+=======
       <file leaf-file-name="history.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/application/modals/history/history.html">
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -33,6 +61,14 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding />
+=======
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,6 +82,7 @@
                 <element signature="e#3908#4356#0" expanded="false" />
                 <element signature="e#4410#4628#0" expanded="false" />
               </folding>
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
             </state>
           </provider>
         </entry>
@@ -93,6 +130,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+=======
         <option value="$PROJECT_DIR$/web/application/controls/search/_search.scss" />
         <option value="$PROJECT_DIR$/web/public/css/bootstrap/_forms.scss" />
         <option value="$PROJECT_DIR$/web/application/controls/dropdown/templated/templated.html" />
@@ -144,6 +185,7 @@
         <option value="$PROJECT_DIR$/web/public/css/bootstrap/_modals.scss" />
         <option value="$PROJECT_DIR$/node_modules/ng2-bootstrap/bundles/ng2-bootstrap.umd.js" />
         <option value="$PROJECT_DIR$/api/index.js" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
       </list>
     </option>
   </component>
@@ -201,9 +243,16 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+=======
     <option name="x" value="-7" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,7 +273,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,6 +315,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,9 +370,12 @@
       <envs />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration default="false" name="start.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="start.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
     <configuration default="false" name="debug-tsc" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -334,6 +386,8 @@
       <envs />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration default="false" name="debug:sass" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -345,6 +399,7 @@
       <envs />
       <method />
     </configuration>
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -404,6 +459,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+<<<<<<< HEAD
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.start.js" />
+      <item index="1" class="java.lang.String" itemvalue="npm.debug-watch" />
+      <item index="2" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
+      <item index="3" class="java.lang.String" itemvalue="npm.debug-tsc" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="npm.debug-tsc" />
+        <item index="1" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
+        <item index="2" class="java.lang.String" itemvalue="npm.debug-watch" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.start.js" />
+=======
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="npm.debug-watch" />
       <item index="1" class="java.lang.String" itemvalue="npm.debug-watch-sass" />
@@ -418,6 +487,7 @@
         <item index="2" class="java.lang.String" itemvalue="Node.js.start.js" />
         <item index="3" class="java.lang.String" itemvalue="npm.debug-tsc" />
         <item index="4" class="java.lang.String" itemvalue="Gulp.js.debug:sass" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
       </list>
     </recent_temporary>
   </component>
@@ -430,6 +500,11 @@
       <created>1478720477128</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1482158046709</updated>
+      <workItem from="1482158047822" duration="1955000" />
+      <workItem from="1482836544213" duration="1509000" />
+=======
       <updated>1478720477128</updated>
       <workItem from="1478720478287" duration="4987000" />
       <workItem from="1478897020247" duration="627000" />
@@ -481,12 +556,37 @@
       <workItem from="1482620941856" duration="2223000" />
       <workItem from="1482670473322" duration="3220000" />
       <workItem from="1482793239016" duration="79000" />
-      <workItem from="1483396958984" duration="611000" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153047000" />
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="3464000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.48973143" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.51026857" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31493506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="152436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,6 +618,7 @@
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -645,6 +746,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+=======
     <entry file="file://$PROJECT_DIR$/web/application/controls/dropdown/standart/logic.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -838,6 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
         </state>
       </provider>
     </entry>
@@ -961,6 +1077,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+=======
     <entry file="file://$PROJECT_DIR$/web/application/modals/history/history.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -996,10 +1118,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1015,5 +1140,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> aabe9b9f894667f5aa37df59b75089e264a68073
   </component>
 </project>

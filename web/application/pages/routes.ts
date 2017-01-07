@@ -14,10 +14,10 @@ import {SearchCompaniesIdentificationControl} from "../controls/search/companies
 import {SearchCompaniesFoundersControl} from "../controls/search/companies/founders/founders";
 import {IchpPage} from "./ichp";
 import {SearchIchpIdentificationControl} from "../controls/search/ichp/identification/identification";
-import {BusinessmenPage} from "./businessmen";
+import {BusinessmenPage} from "../features/bussinessmen/pages/businessmen";
 import {SearchIchpSimpleControl} from "../controls/search/ichp/simple/simple";
-import {SearchBusinessmenSimpleControl} from "../controls/search/businessmen/simple/simple";
-import {SearchBusinessmenIdentificationControl} from "../controls/search/businessmen/identification/identification";
+import {SearchBusinessmenSimpleControl} from "../features/bussinessmen/controls/search/simple/simple";
+import {SearchBusinessmenIdentificationControl} from "../features/bussinessmen/controls/search/identification/identification";
 
 
 const appRoutes: Routes = [

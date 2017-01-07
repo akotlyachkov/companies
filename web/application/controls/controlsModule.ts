@@ -7,8 +7,8 @@ import {NavbarControl} from "./navbar/navbar";
 import {FeaturesControl} from "./features/features";
 import {SelectorControl} from "./selector/selector";
 import {ActionsCompaniesControl} from "./actions/companies/companies";
-import {SearchBusinessmenPersonControl} from "./search/businessmen/person/person";
-import {SearchBusinessmenSimpleControl} from "./search/businessmen/simple/simple";
+import {SearchBusinessmenPersonControl} from "../features/bussinessmen/controls/search/person/person";
+import {SearchBusinessmenSimpleControl} from "../features/bussinessmen/controls/search/simple/simple";
 import {SearchCompaniesFinanceControl} from "./search/companies/finance/finance";
 import {SearchCompaniesFoundersControl} from "./search/companies/founders/founders";
 import {SearchCompaniesIdentificationControl} from "./search/companies/identification/identification";
@@ -28,7 +28,7 @@ import {OkopfDropwownControl} from "./dropdown/templated/okopf";
 import {AssetsDropwownControl} from "./dropdown/standart/assets";
 import {PeriodsDropwownControl} from "./dropdown/standart/periods";
 import {CurrencyDropwownControl} from "./dropdown/standart/currency";
-import {SearchBusinessmenIdentificationControl} from "./search/businessmen/identification/identification";
+import {SearchBusinessmenIdentificationControl} from "../features/bussinessmen/controls/search/identification/identification";
 
 @NgModule({
     imports: [RouterModule,Ng2BootstrapModule,CommonModule],
