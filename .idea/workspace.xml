@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46a9ef7d-e58a-40c4-8ee6-1b4a438fd28d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/application/modals/modalsModule.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.js" afterPath="$PROJECT_DIR$/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/appModule.js" afterPath="$PROJECT_DIR$/web/application/appModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/appModule.ts" afterPath="$PROJECT_DIR$/web/application/appModule.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.html" afterPath="$PROJECT_DIR$/web/application/modals/history/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.js" afterPath="$PROJECT_DIR$/web/application/modals/history/history.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/modals/history/history.ts" afterPath="$PROJECT_DIR$/web/application/modals/history/history.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/companies.js" afterPath="$PROJECT_DIR$/web/application/pages/companies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/application/pages/companies.ts" afterPath="$PROJECT_DIR$/web/application/pages/companies.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/bootstrap/_modals.scss" afterPath="$PROJECT_DIR$/web/public/css/bootstrap/_modals.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/styles.css" afterPath="$PROJECT_DIR$/web/public/css/styles.css" />
-    </list>
+    <list default="true" id="46a9ef7d-e58a-40c4-8ee6-1b4a438fd28d" name="Default" comment="" />
     <ignored path="companies.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -237,6 +224,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,7 +267,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,11 +481,12 @@
       <workItem from="1482620941856" duration="2223000" />
       <workItem from="1482670473322" duration="3220000" />
       <workItem from="1482793239016" duration="79000" />
+      <workItem from="1483396958984" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152436000" />
+    <option name="totallyTimeSpent" value="153047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
