@@ -4,5 +4,6 @@ import { enableProdMode } from '@angular/core';
 
 
 import {AppModule } from './appModule';
+import {SharedService} from "./providers/global";
 enableProdMode();
-platformBrowserDynamic().bootstrapModule(AppModule);
+var promise = platformBrowserDynamic().bootstrapModule(AppModule, [SharedService]);

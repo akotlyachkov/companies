@@ -1,6 +1,7 @@
 import {Component, Output, EventEmitter, Input} from "@angular/core";
 import {Filter} from "../../../entities/Filter";
 import {FilterService} from "../SearchPanelService";
+import {SharedService} from "../../../../../providers/global";
 
 @Component({
     moduleId: module.id,
@@ -9,11 +10,11 @@ import {FilterService} from "../SearchPanelService";
     templateUrl: 'simple.html'
 })
 export class SearchBusinessmenSimpleControl {
-
-
-    constructor(private filterService: FilterService) {
-
+    constructor(private filterService: FilterService, shared: SharedService) {
+        console.log('shared');
+        console.log(shared)
     }
+
 
     @Input()
     model: Filter = new Filter();

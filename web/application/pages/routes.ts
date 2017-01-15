@@ -1,5 +1,5 @@
 //import {UIRouterModule} from "ui-router-ng2";
-import {RouterModule, Routes, RouterLink} from "@angular/router";
+import {RouterModule, Routes} from "@angular/router";
 import {CompaniesPage} from "./companies";
 import {NgModule} from "@angular/core";
 import {LoginPage} from "./login/login";
@@ -18,15 +18,16 @@ import {BusinessmenPage} from "../features/bussinessmen/pages/businessmen";
 import {SearchIchpSimpleControl} from "../controls/search/ichp/simple/simple";
 import {SearchBusinessmenSimpleControl} from "../features/bussinessmen/controls/search/simple/simple";
 import {SearchBusinessmenIdentificationControl} from "../features/bussinessmen/controls/search/identification/identification";
+import {ServerConfigResolver} from "../providers/serverConfigResolver";
 
 
 const appRoutes: Routes = [
-    {path:'',redirectTo:'/companies',pathMatch:'full'},
+    {path: '', redirectTo: '/companies', pathMatch: 'full'},
     {
-        path:'', component: MainLayout,  children: [
+        path: '', component: MainLayout, resolve: {serverConfig: ServerConfigResolver}, children: [
         {
             path: 'companies', component: CompaniesPage, children: [
-            {path: '', component: SearchCompaniesSimpleControl },
+            {path: '', component: SearchCompaniesSimpleControl},
             {path: 'finance', component: SearchCompaniesFinanceControl},
             {path: 'identification', component: SearchCompaniesIdentificationControl},
             {path: 'founders', component: SearchCompaniesFoundersControl},

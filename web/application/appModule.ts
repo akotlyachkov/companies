@@ -18,6 +18,9 @@ import {DataModule} from "./providers/providersModule";
 import {ModalsModule} from "./modals/modalsModule";
 import {FilterService} from "./features/bussinessmen/controls/search/SearchPanelService";
 import {BusinessmenProvider} from "./features/bussinessmen/providers/businessmen";
+import {ServerConfigProvider} from "./providers/serverConfig";
+import {ServerConfigResolver} from "./providers/serverConfigResolver";
+import {SharedService} from "./providers/global";
 
 @NgModule({
     declarations: [
@@ -29,12 +32,10 @@ import {BusinessmenProvider} from "./features/bussinessmen/providers/businessmen
         ErrorPage,
         NotFoundPage,
         LoginPage,
-
-
     ],
     imports: [BrowserModule, RoutingModule, ControlsModule, DataModule, PaginationModule, ModalsModule, CommonModule, FormsModule],
     bootstrap: [MasterLayout],
-    providers:[FilterService,BusinessmenProvider]
+    providers:[FilterService,BusinessmenProvider,ServerConfigProvider,ServerConfigResolver,SharedService]
 })
 export class AppModule {
 
