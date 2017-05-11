@@ -1,7 +1,7 @@
 import {NgModule} from "@angular/core";
-import {ModalModule} from "ng2-bootstrap/ng2-bootstrap";
-import {PersonQueryHistoryModal} from "../features/bussinessmen/modals/history/history";
-
+import {ModalModule} from "ngx-bootstrap";
+import {PersonQueryHistoryModal} from "pages/bussinessmen/modals/history/history";
+import './index.scss'
 
 @NgModule({
     imports:[ModalModule],

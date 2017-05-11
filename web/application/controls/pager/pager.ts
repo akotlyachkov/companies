@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-
+import './pager.scss'
 
 @Component({
-    moduleId: module.id,
     selector: 'pager',
     templateUrl: 'pager.html'
 })

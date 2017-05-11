@@ -1,8 +1,7 @@
 import {Component} from "@angular/core";
-
+import './finance.scss';
 
 @Component({
-    moduleId: module.id,
     selector: 'search-companies-finance',
     templateUrl: 'finance.html'
 })

@@ -3,7 +3,6 @@ import {Companie} from "../../../entities/companie";
 
 
 @Component({
-    moduleId: module.id,
     selector: 'companies-list',
     templateUrl: 'companies-list.html'
 })

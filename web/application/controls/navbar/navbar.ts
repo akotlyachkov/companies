@@ -1,12 +1,11 @@
 import {Component, OnInit} from "@angular/core";
 import {NavbarService} from "../../providers/navbar";
 import {NavbarItem} from "../../entities/navbarItem";
-
+import './navbar.scss'
 
 @Component({
-    moduleId: module.id,
     selector: 'navbar',
-    host:{class:'navbar navbar-default navbar-static-top'},
+    host: {'class': 'navbar navbar-default navbar-static-top'},
     templateUrl: 'navbar.html'
 })
 export class NavbarControl implements OnInit {

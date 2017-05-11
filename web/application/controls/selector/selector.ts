@@ -1,8 +1,7 @@
 import {Component} from "@angular/core";
-
+import './selector.scss';
 
 @Component({
-    moduleId: module.id,
     selector: 'selector',
 
     templateUrl: 'selector.html'

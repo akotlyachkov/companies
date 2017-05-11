@@ -1,7 +1,6 @@
 import {Component} from "@angular/core";
 
 @Component({
-    moduleId: module.id,
     selector: 'select-currency',
     templateUrl: 'standart.html'
 })

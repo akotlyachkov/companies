@@ -1,10 +1,8 @@
 import {Component} from "@angular/core";
-
-
+import './companies.scss'
 @Component({
-    moduleId: module.id,
     selector: 'actions-companies',
-    host:{class:"pull-right"},
+    host:{'class':"pull-right"},
     templateUrl: 'companies.html'
 })
 export class ActionsCompaniesControl {

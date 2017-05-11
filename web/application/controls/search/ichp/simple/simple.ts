@@ -1,9 +1,8 @@
 import {Component} from "@angular/core";
-
+import "../../search.scss";
 
 @Component({
-    moduleId: module.id,
-    host:{class: 'search search--with-tabs'},
+    host: {'class': 'search search--with-tabs'},
     selector: 'search-ichp-simple',
     templateUrl: 'simple.html'
 })

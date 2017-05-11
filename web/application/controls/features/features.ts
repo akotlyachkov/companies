@@ -1,10 +1,9 @@
 import {Component, OnInit} from "@angular/core";
 import {NavbarService} from "../../providers/navbar";
 import {NavbarItem} from "../../entities/navbarItem";
-
+import './features.scss'
 
 @Component({
-    moduleId: module.id,
     selector: 'features',
     templateUrl: 'features.html'
 })

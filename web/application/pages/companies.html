@@ -1,0 +1,7 @@
+<router-outlet></router-outlet>
+<actions-companies></actions-companies>
+<selector></selector>
+<companies-list [companies]="companies"></companies-list>
+<pagination [totalItems]="totalItems" [(ngModel)]="currentPage" (pageChanged)="pageChanged($event)"></pagination>
+<button class="btn btn-primary" (click)="test()">Large modal</button>
+<query-history-modal #mod></query-history-modal>

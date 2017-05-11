@@ -1,7 +1,6 @@
 import {Component} from "@angular/core";
-
+import './dropdown.scss'
 @Component({
-    moduleId: module.id,
     selector: 'select-okfs',
     templateUrl: 'templated.html'
 })

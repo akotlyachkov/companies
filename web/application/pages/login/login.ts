@@ -1,8 +1,7 @@
 import {Component} from "@angular/core";
-
+import './login.scss'
 
 @Component({
-    moduleId: module.id,
     selector: 'login',
     templateUrl: 'login.html'
 })

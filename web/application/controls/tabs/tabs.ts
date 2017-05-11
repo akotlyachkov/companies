@@ -1,8 +1,7 @@
 import {Component} from "@angular/core";
-
+import './tabs.scss';
 
 @Component({
-    moduleId: module.id,
     selector: 'tabs',
     templateUrl: 'tabs.html'
 })
