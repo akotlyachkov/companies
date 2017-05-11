@@ -1,4 +1,6 @@
 import {Component} from "@angular/core";
+import {SharedService} from "../providers/global";
+import {ActivatedRoute} from "@angular/router";
 
 
 @Component({
@@ -11,5 +13,7 @@ import {Component} from "@angular/core";
 `
 })
 export class MainLayout {
-
+constructor(shared: SharedService,private route: ActivatedRoute){
+    shared.configServer = this.route.snapshot.data['serverConfig'];
+}
 }
